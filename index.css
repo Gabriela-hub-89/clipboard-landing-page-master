@@ -335,7 +335,7 @@ header{
     }
 }
 .footer{
-    display: flex;
+    background: linear-gradient(to bottom, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 0%, rgba(242,242,242,1) 1%, rgba(250,247,250,1) 59%, rgba(255,255,255,1) 100%);    display: flex;
     align-items: center;
     flex-direction: column;
 }
@@ -350,12 +350,14 @@ header{
     width: 40%;
     height: 40%;
     margin-left: 7vh;
+    padding-top: 10vh;
 }
 @media (min-width: 768px) {
     .logo-footer img{
         width: 30%;
         height: 30%;
         margin-left: 1vh;
+        padding-top: 0;
     }
 }
 .footer-links {
